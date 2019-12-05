@@ -1,0 +1,21 @@
+{
+  "name": "cyberbit_task_ofry",
+  "author": "Ofry Linkovsky",
+  "homepage": "https://Ofry.net/",
+  "license": "MIT",
+  "version": "1.0.0",
+  "description": "a telegram bot for wave forcasting of the israeli coast",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cors": "^2.8.5",
+    "nedb": "^1.8.0",
+    "jquery": "^3.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  }
+}

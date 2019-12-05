@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo By Ofry Linkosky</title>
+    <link rel="stylesheet" href="https://ofry.net/assets/css/main.css"/>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <header id="header">
+        <h1>Todo By Ofry Linkovsky</h1>
+    </header>
+    <div class="error"></div>
+    <section>
+        <h3>Login:</h3>
+        <div class="user-input">
+            <form>
+                <label class="title">Username:</label>
+                <input type="text" id="username" name="username" value="My User">
+                <input type="button" id="submitUserButton" value="View">
+            </form>
+        </div>
+    </section>
+    <p></p>
+    <section>
+        <h3>add new task:</h3>
+        <div class="task-input">
+            <form>
+                <label class="title">task name:</label>
+                <input type="text" id="taskname" name="taskname" value="New task">
+                <label class="title">due date:</label>
+                <input type="text" id="taskdate" name="taskdate" value="8/9/2021">
+                <input type="button" id="submitTaskButton" value="Add">
+            </form>
+        </div>
+    </section>
+    <p></p>
+
+    <section>
+        <h3>YOU LATE:</h3>
+        <div class="row late-tasks-content"></div>
+    </section>
+
+    <section>
+        <h3>Todo:</h3>
+        <div class="row todo-tasks-content"></div>
+    </section>
+
+    <section>
+        <h3>Done:</h3>
+        <div class="row done-tasks-content"></div>
+    </section>
+</div>
+</body>
+</html>
