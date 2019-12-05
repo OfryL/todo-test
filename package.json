@@ -1,11 +1,10 @@
 {
-  "name": "cyberbit_task_ofry",
+  "name": "todo_test",
   "author": "Ofry Linkovsky",
   "homepage": "https://Ofry.net/",
   "license": "MIT",
   "version": "1.0.0",
-  "description": "a telegram bot for wave forcasting of the israeli coast",
-  "main": "src/app.js",
+  "main": "sercer/app.js",
   "scripts": {
     "start": "node server/app.js"
   },
